@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:complexType name="Email">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="Type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="personnel"/>
+                            <xs:enumeration value="academique"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="Tele">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="Type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="fixe"/>
+                            <xs:enumeration value="portable"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="enseignants">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="enseingnant">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="CIN" type="xs:string"/>
+                        <xs:element name="NOM" type="xs:string"/>
+                        <xs:element name="PRENOM" type="xs:string"/>
+                        <xs:element maxOccurs="unbounded" name="Tele" type="Tele"/>
+                        <xs:element maxOccurs="unbounded" name="Email" type="Email"/>
+                        <xs:element name="specialite" type="xs:string"/>
+                        <xs:element name="Depatement">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="GI"/>
+                                    <xs:enumeration value="TM"/>
+                                    <xs:enumeration value="TIMQ"/>
+                                    <xs:enumeration value="GIM"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="IDens" type="xs:ID"/>
+                </xs:complexType>
+                <!--  jkbkjn!-->
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="etudiants">
+        <xs:sequence>
+            <xs:element name="etudiant" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="CIN" type="xs:string"/>
+                        <xs:element name="NOM" type="xs:string"/>
+                        <xs:element name="PRENOM" type="xs:string"/>
+                        <xs:element maxOccurs="unbounded" name="Tele" type="Tele"/>
+                        <xs:element maxOccurs="unbounded" name="Email" type="Email"/>
+                        <xs:element name="DateDenaissance" type="xs:date"/>
+                        <xs:element name="adresse" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="rue" type="xs:string"/>
+                                    <xs:element name="Ville" type="xs:string"/>
+                                    <xs:element name="numero" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="IDEtu" type="xs:ID"/>
+                    <xs:attribute name="filiere" type="xs:IDREF"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="modules">
+        <xs:sequence>
+            <xs:element name="module" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Nom" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="Coordonnateur" type="xs:IDREF"/>
+                    <xs:attribute name="IDmod" type="xs:ID"/>
+                    <xs:attribute name="filiere" type="xs:IDREF"/>
+                    <xs:attribute name="semestre">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="S5"/>
+                                <xs:enumeration value="S6"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="matieres">
+        <xs:sequence>
+            <xs:element name="matiere" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Intitule" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="module" type="xs:IDREF"/>
+                    <xs:attribute name="enseingnat" type="xs:IDREF"/>
+                    <xs:attribute name="IDMatiere" type="xs:ID"/>
+                    <xs:attribute name="coefficient" type="xs:double"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="notes">
+        <xs:sequence>
+            <xs:element name="note" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="IDEtudiant" type="xs:IDREF"/>
+                    <xs:attribute name="valeur">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:decimal">
+                                <xs:minInclusive value="0"/>
+                                <xs:maxInclusive value="20"/>
+                                <xs:totalDigits value="4"/>
+                                <xs:fractionDigits value="2"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="exam" type="xs:IDREF"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="filieres">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="filiere">
+                <xs:complexType>
+                    <xs:attribute name="IDfil" type="xs:ID"/>
+                    <xs:attribute name="NomFil" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Exams">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="exam">
+                <xs:complexType>
+                    <xs:attribute name="IDexam" type="xs:ID"/>
+                    <xs:attribute name="type">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="Ds"/>
+                                <xs:enumeration value="Exam"/>
+                                <xs:enumeration value="Projet"/>
+                                <xs:enumeration value="Mat"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="Matexam" type="xs:IDREF"/>
+                    <xs:attribute name="coefficient" type="xs:double"> </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="EST">
+        <xs:sequence>
+            <xs:element name="enseignants" type="enseignants" maxOccurs="unbounded"/>
+            <xs:element minOccurs="1" name="etudiants" type="etudiants" maxOccurs="unbounded"/>
+            <xs:element name="matieres" type="matieres" maxOccurs="unbounded"/>
+            <xs:element name="Notes" type="notes" maxOccurs="unbounded"/>
+            <xs:element name="modules" type="modules" maxOccurs="unbounded"/>
+            <xs:element maxOccurs="unbounded" minOccurs="1" name="Filieres" type="filieres"/>
+            <xs:element minOccurs="1" name="Examens" type="Exams"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="EST">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="EST"> </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+        <xs:key name="IDens">
+            <xs:selector xpath="enseignants/enseingnant"/>
+            <xs:field xpath="@IDens"/>
+        </xs:key>
+        <xs:keyref refer="IDens" name="fk_ems_mod">
+            <xs:selector xpath="modules/module"/>
+            <xs:field xpath="@Coordonnateur"/>
+        </xs:keyref>
+        <xs:key name="IDmod">
+            <xs:selector xpath="modules/module"/>
+            <xs:field xpath="@IDmod"/>
+        </xs:key>
+        <xs:keyref refer="IDmod" name="fk_mat_mod">
+            <xs:selector xpath="matieres/matiere"/>
+            <xs:field xpath="@module"/>
+        </xs:keyref>
+
+        <xs:keyref refer="IDens" name="fk_mat_ens">
+            <xs:selector xpath="matieres/matiere"/>
+            <xs:field xpath="@enseingnat"/>
+        </xs:keyref>
+
+
+        <xs:key name="IDetu">
+            <xs:selector xpath="etudiants/etudiant"/>
+            <xs:field xpath="@IDEtu"/>
+        </xs:key>
+        <xs:keyref refer="IDetu" name="fk_etu_note">
+            <xs:selector xpath="Notes/note"/>
+            <xs:field xpath="@IDEtudiant"/>
+        </xs:keyref>
+        <xs:key name="IDexam">
+            <xs:selector xpath="Examens/exam"/>
+            <xs:field xpath="@IDexam"/>
+        </xs:key>
+        <xs:keyref refer="IDexam" name="fk_exam_note">
+            <xs:selector xpath="Notes/note"/>
+            <xs:field xpath="@exam"/>
+        </xs:keyref>
+        <xs:key name="IDmat">
+            <xs:selector xpath="matieres/matiere"/>
+            <xs:field xpath="@IDMatiere"/>
+        </xs:key>
+        <xs:keyref refer="IDmat" name="fk_mat_exam">
+            <xs:selector xpath="Examens/exam"/>
+            <xs:field xpath="@Matexam"/>
+        </xs:keyref>
+
+        <xs:key name="IDfil">
+            <xs:selector xpath="Filieres/filiere"/>
+            <xs:field xpath="@IDfil"/>
+        </xs:key>
+        <xs:keyref refer="IDfil" name="fk_Fil_mod">
+            <xs:selector xpath="modules/module"/>
+            <xs:field xpath="@filiere"/>
+        </xs:keyref>
+
+
+    </xs:element>
+</xs:schema>

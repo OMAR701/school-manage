@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="TP4.xsl"?>
+<EST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+    <enseignants>
+        <enseingnant IDens="E02">
+            <CIN>JE398127</CIN>
+            <NOM>BAKKAS</NOM>
+            <PRENOM>Jamal</PRENOM>
+            <Tele Type="portable">0645630921</Tele>
+            <Email Type="academique">Bakkas.jamal@uca.ma</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E01">
+            <CIN>JM4324</CIN>
+            <NOM>Chekri</NOM>
+            <PRENOM>Abderahman</PRENOM>
+            <Tele Type="fixe">0793512740</Tele>
+            <Email Type="personnel">chekri@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E03">
+            <CIN>HA246382</CIN>
+            <NOM>ELkouri</NOM>
+            <PRENOM>Rachid</PRENOM>
+            <Tele Type="fixe">0693623812</Tele>
+            <Email Type="personnel">ELKOURI@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>    
+        <enseingnant IDens="E04">
+            <CIN>ZE378291</CIN>
+            <NOM>BAYAR</NOM>
+            <PRENOM>Abdelouahed</PRENOM>
+            <Tele Type="fixe">0608913245</Tele>
+            <Email Type="personnel">bayar.abdo@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E05">
+            <CIN>HG237652</CIN>
+            <NOM>ESALIH</NOM>
+            <PRENOM>Mohammed</PRENOM>
+            <Tele Type="fixe">0693524309</Tele>
+            <Email Type="personnel">Salih.mohamed@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E06">
+            <CIN>AR764235</CIN>
+            <NOM>ABDELAOUI</NOM>
+            <PRENOM>Said</PRENOM>
+            <Tele Type="fixe">0698635428</Tele>
+            <Email Type="personnel">Abdelaoui.said@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E07">
+            <CIN>LM872420</CIN>
+            <NOM>ALAOUI</NOM>
+            <PRENOM>Othman</PRENOM>
+            <Tele Type="fixe">0686754324</Tele>
+            <Email Type="personnel">Alaoui.othman@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E08">
+            <CIN>ZT510983</CIN>
+            <NOM>MOUNIR</NOM>
+            <PRENOM>Ilham</PRENOM>
+            <Tele Type="fixe">0635471821</Tele>
+            <Email Type="personnel">Ilham.mounir@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E09">
+            <CIN>RE082981</CIN>
+            <NOM>ARHID</NOM>
+            <PRENOM>Khadija</PRENOM>
+            <Tele Type="fixe">0613241174</Tele>
+            <Email Type="personnel">Arhid.m@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E10">
+            <CIN>RE082981</CIN>
+            <NOM>MAAROUF</NOM>
+            <PRENOM>HAMID</PRENOM>
+            <Tele Type="fixe">0642331539</Tele>
+            <Email Type="personnel">MAAROUF.hamid@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+        <enseingnant IDens="E11">
+            <CIN>RE082981</CIN>
+            <NOM>BENHADOUCHE</NOM>
+            <PRENOM>Mohammed</PRENOM>
+            <Tele Type="fixe">0642331539</Tele>
+            <Email Type="personnel">MAAROUF.hamid@gmail.com</Email>
+            <specialite>info</specialite>
+            <Depatement>GI</Depatement>
+        </enseingnant>
+    </enseignants>
+    <etudiants>
+        <etudiant IDEtu="ET01"  filiere="F01">
+            <CIN>JE283017</CIN>
+            <NOM>AIT AYAD</NOM>
+            <PRENOM>Manal</PRENOM>
+            <Tele Type="fixe">0663273409</Tele>
+            <Email Type="personnel">AITAYAD.manal@gmail.com</Email>
+            <DateDenaissance>2001-12-30</DateDenaissance>
+            <adresse>
+                <rue>OUAD EL BACHA</rue>
+                <Ville>SAFI</Ville>
+                <numero>102</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET02"  filiere="F01">
+            <CIN>PE309145</CIN>
+            <NOM>AIT TALEB</NOM>
+            <PRENOM>Othmane</PRENOM>
+            <Tele Type="fixe">0638209412</Tele>
+            <Email Type="personnel">AITTALEB.othman@gmail.com</Email>
+            <DateDenaissance>2001-09-18</DateDenaissance>
+            <adresse>
+                <rue>EL BIYAR</rue>
+                <Ville>SAFI</Ville>
+                <numero>263</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET03"  filiere="F01">
+            <CIN>HE209817</CIN>
+            <NOM>ALIOUI</NOM>
+            <PRENOM>HAMZA</PRENOM>
+            <Tele Type="fixe">0723519826</Tele>
+            <Email Type="personnel">ALIOUI.hamza@gmail.com</Email>
+            <DateDenaissance>2001-03-29</DateDenaissance>
+            <adresse>
+                <rue>NWACER</rue>
+                <Ville>CASA</Ville>
+                <numero>873</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET04" filiere="F01" >
+            <CIN>HE356192</CIN>
+            <NOM>ANTAR</NOM>
+            <PRENOM>Jalila</PRENOM>
+            <Tele Type="fixe">0625187329</Tele>
+            <Email Type="personnel">ANTAR.jalila@gmail.com</Email>
+            <DateDenaissance>2001-01-29</DateDenaissance>
+            <adresse>
+                <rue>MASIRA</rue>
+                <Ville>SAFI</Ville>
+                <numero>183</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET05" filiere="F01" >
+            <CIN>KH652781</CIN>
+            <NOM>ARJOUZI</NOM>
+            <PRENOM>Abderrahman</PRENOM>
+            <Tele Type="fixe">0762410985</Tele>
+            <Email Type="personnel">ARJOUZI.abderahman@gmail.com</Email>
+            <DateDenaissance>2001-03-23</DateDenaissance>
+            <adresse>
+                <rue>OKBA BNOU NAFIAA</rue>
+                <Ville>SAFI</Ville>
+                <numero>305</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET06"  filiere="F01" >
+            <CIN>ZN675324</CIN>
+            <NOM>AZINDA</NOM>
+            <PRENOM>ABDELMOUNAIM</PRENOM>
+            <Tele Type="fixe">0672390125</Tele>
+            <Email Type="personnel">AZINDA.abdelmounim@gmail.com</Email>
+            <DateDenaissance>2001-10-26</DateDenaissance>
+            <adresse>
+                <rue>IDRISSI</rue>
+                <Ville>SAFI</Ville>
+                <numero>23</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET07"  filiere="F01">
+            <CIN>YH876512</CIN>
+            <NOM>BAHNINI</NOM>
+            <PRENOM>MOUHSSINE</PRENOM>
+            <Tele Type="fixe">0672398137</Tele>
+            <Email Type="personnel">BAHNINI.mouhssine@gmail.com</Email>
+            <DateDenaissance>2001-01-06</DateDenaissance>
+            <adresse>
+                <rue>KHAWARIZNI</rue>
+                <Ville>YOUSOFIA</Ville>
+                <numero>639</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET08"  filiere="F01">
+            <CIN>AB568312</CIN>
+            <NOM>BAKHOUCHE</NOM>
+            <PRENOM>OUIAM</PRENOM>
+            <Tele Type="fixe">0572430981</Tele>
+            <Email Type="personnel">BAKHOUCHE.wiam@gmail.com</Email>
+            <DateDenaissance>2001-01-20</DateDenaissance>
+            <adresse>
+                <rue>Khalil jebrane</rue>
+                <Ville>El jadida</Ville>
+                <numero>31</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET09"  filiere="F01">
+            <CIN>TH769024</CIN>
+            <NOM>BENZAHRA</NOM>
+            <PRENOM>Fatima-ezzahra</PRENOM>
+            <Tele Type="fixe">0628914376</Tele>
+            <Email Type="personnel">BENZAHRA.fatimazahra@gmail.com</Email>
+            <DateDenaissance>2001-12-01</DateDenaissance>
+            <adresse>
+                <rue>AMOUNI</rue>
+                <Ville>SAFI</Ville>
+                <numero>981</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET10"  filiere="F01">
+            <CIN>BE569034</CIN>
+            <NOM>BOUHDADI</NOM>
+            <PRENOM>RAJAA</PRENOM>
+            <Tele Type="fixe">0724510876</Tele>
+            <Email Type="personnel">BOUHDADI.rajaa@gmail.com</Email>
+            <DateDenaissance>2001-11-09</DateDenaissance>
+            <adresse>
+                <rue>KINIDI</rue>
+                <Ville>SAFI</Ville>
+                <numero>261</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET11" filiere="F01" >
+            <CIN>FT453287</CIN>
+            <NOM>BOUZIANE</NOM>
+            <PRENOM>Amina</PRENOM>
+            <Tele Type="fixe">0627912053</Tele>
+            <Email Type="personnel">BOUZIANE.amina@gmail.com</Email>
+            <DateDenaissance>2001-04-28</DateDenaissance>
+            <adresse>
+                <rue>LAMIA</rue>
+                <Ville>SAFI</Ville>
+                <numero>287</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET12"  filiere="F01">
+            <CIN>RA763267</CIN>
+            <NOM>CHAHID</NOM>
+            <PRENOM>YOUSSEF</PRENOM>
+            <Tele Type="fixe">0714529653</Tele>
+            <Email Type="personnel">CHAHID.youssef@gmail.com</Email>
+            <DateDenaissance>2000-10-15</DateDenaissance>
+            <adresse>
+                <rue>CHANGIT</rue>
+                <Ville>SAFI</Ville>
+                <numero>187</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET13"  filiere="F01">
+            <CIN>UW673219</CIN>
+            <NOM>CHAIBA</NOM>
+            <PRENOM>ANFAL</PRENOM>
+            <Tele Type="fixe">0624513907</Tele>
+            <Email Type="personnel">CHAIBA.anfal@gmail.com</Email>
+            <DateDenaissance>2001-05-13</DateDenaissance>
+            <adresse>
+                <rue>SALAM</rue>
+                <Ville>AGADIR</Ville>
+                <numero>279</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET14"  filiere="F01">
+            <CIN>PC982851</CIN>
+            <NOM>DINNAOUI</NOM>
+            <PRENOM>Fatima-ezzahra</PRENOM>
+            <Tele Type="fixe">0724510643</Tele>
+            <Email Type="personnel">DINNAOUI.fatimazahra@gmail.com</Email>
+            <DateDenaissance>2001-06-05</DateDenaissance>
+            <adresse>
+                <rue>DAR BOUAOUDA</rue>
+                <Ville>SAFI</Ville>
+                <numero>371</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET15"  filiere="F01">
+            <CIN>TL872315</CIN>
+            <NOM>EL ABDELLAOUI</NOM>
+            <PRENOM>MOHAMMED YASSINE</PRENOM>
+            <Tele Type="fixe">0761324097</Tele>
+            <Email Type="personnel">ELABDELLAOUI.abdelaoui@gmail.com</Email>
+            <DateDenaissance>2000-12-02</DateDenaissance>
+            <adresse>
+                <rue>MAARIF</rue>
+                <Ville>CASA</Ville>
+                <numero>196</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET16"  filiere="F01">
+            <CIN>YS789324</CIN>
+            <NOM>EL FADIL</NOM>
+            <PRENOM>MOHAMED</PRENOM>
+            <Tele Type="fixe">0734529874</Tele>
+            <Email Type="personnel">ELFADIL.mohamed@gmail.com</Email>
+            <DateDenaissance>2001-09-16</DateDenaissance>
+            <adresse>
+                <rue>MATAR</rue>
+                <Ville>SAFI</Ville>
+                <numero>291</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET17"  filiere="F01">
+            <CIN>VX760926</CIN>
+            <NOM>EL KASSAH</NOM>
+            <PRENOM>Wiam</PRENOM>
+            <Tele Type="fixe">0623424098</Tele>
+            <Email Type="personnel">ELKASSAH.wiam@gmail.com</Email>
+            <DateDenaissance>2001-12-17</DateDenaissance>
+            <adresse>
+                <rue>SIDI BOUZID</rue>
+                <Ville>SAFI</Ville>
+                <numero>31</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET18"  filiere="F01" >
+            <CIN>HG340925</CIN>
+            <NOM>EL MALIKI</NOM>
+            <PRENOM>Marouane</PRENOM>
+            <Tele Type="fixe">0565289120</Tele>
+            <Email Type="personnel">ELMALIKI.marouane@gmail.com</Email>
+            <DateDenaissance>2001-01-30</DateDenaissance>
+            <adresse>
+                <rue>ZITOUN</rue>
+                <Ville>El jadida</Ville>
+                <numero>315</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET19"  filiere="F01">
+            <CIN>AQ346512</CIN>
+            <NOM>EL OULA</NOM>
+            <PRENOM>ALAE</PRENOM>
+            <Tele Type="fixe">0629871428</Tele>
+            <Email Type="personnel">ELOULA.alae@gmail.com</Email>
+            <DateDenaissance>2000-11-14</DateDenaissance>
+            <adresse>
+                <rue>SANIA</rue>
+                <Ville>SAFI</Ville>
+                <numero>129</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET20"  filiere="F01">
+            <CIN>XN764509</CIN>
+            <NOM>ELJARRAH</NOM>
+            <PRENOM>Khaoula</PRENOM>
+            <Tele Type="fixe">0723410987</Tele>
+            <Email Type="personnel">ELJARRAH.khaoula@gmail.com</Email>
+            <DateDenaissance>2001-06-23</DateDenaissance>
+            <adresse>
+                <rue>HAY SINAI</rue>
+                <Ville>SAFI</Ville>
+                <numero>13</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET21" filiere="F01" >
+            <CIN>GB762366</CIN>
+            <NOM>ESSADEQ</NOM>
+            <PRENOM>Ayoub</PRENOM>
+            <Tele Type="fixe">0762479434</Tele>
+            <Email Type="personnel">ESSADEQ.ayoub@gmail.com</Email>
+            <DateDenaissance>2000-11-27</DateDenaissance>
+            <adresse>
+                <rue>AIN ZERKA</rue>
+                <Ville>TIZNIT</Ville>
+                <numero>165</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET22" filiere="F01" >
+            <CIN>CV442791</CIN>
+            <NOM>HADAR</NOM>
+            <PRENOM>Asmaa</PRENOM>
+            <Tele Type="fixe">0690871342</Tele>
+            <Email Type="personnel">HADAR.asmaa@gmail.com</Email>
+            <DateDenaissance>2001-12-03</DateDenaissance>
+            <adresse>
+                <rue>MOHAMMED V</rue>
+                <Ville>ESSAOUIRA</Ville>
+                <numero>542</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET23"  filiere="F01">
+            <CIN>PK980076</CIN>
+            <NOM>HAKKOU</NOM>
+            <PRENOM>MOSTAFA</PRENOM>
+            <Tele Type="fixe">0617263504</Tele>
+            <Email Type="personnel">HAKKOU.mostafa@gmail.com</Email>
+            <DateDenaissance>2001-08-24</DateDenaissance>
+            <adresse>
+                <rue>JRAIFAT</rue>
+                <Ville>SAFI</Ville>
+                <numero>82</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET24"   filiere="F01">
+            <CIN>XW568711</CIN>
+            <NOM>HANNAOUI</NOM>
+            <PRENOM>Issam</PRENOM>
+            <Tele Type="fixe">0556420987</Tele>
+            <Email Type="personnel">HANNAOUI.issam@gmail.com</Email>
+            <DateDenaissance>2001-02-13</DateDenaissance>
+            <adresse>
+                <rue>MOKAWAMA</rue>
+                <Ville>FES</Ville>
+                <numero>431</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET25"  filiere="F01">
+            <CIN>KU760434</CIN>
+            <NOM>HARRES</NOM>
+            <PRENOM>Houssam</PRENOM>
+            <Tele Type="fixe">0601982567</Tele>
+            <Email Type="personnel">HARRES.houssam@gmail.com</Email>
+            <DateDenaissance>1999-03-19</DateDenaissance>
+            <adresse>
+                <rue>NAKHIL</rue>
+                <Ville>MARAKKECH</Ville>
+                <numero>245</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET26" filiere="F01" >
+            <CIN>HX349865</CIN>
+            <NOM>JEDDIB</NOM>
+            <PRENOM>KHADIJA</PRENOM>
+            <Tele Type="fixe">0535268120</Tele>
+            <Email Type="personnel">JEDDIB.khadija@gmail.com</Email>
+            <DateDenaissance>2001-10-08</DateDenaissance>
+            <adresse>
+                <rue>Dewar Rmal</rue>
+                <Ville>SAFI</Ville>
+                <numero>654</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET27"  filiere="F01">
+            <CIN>JE562198</CIN>
+            <NOM>KADER</NOM>
+            <PRENOM>OMAR</PRENOM>
+            <Tele Type="fixe">0690100531</Tele>
+            <Email Type="personnel">kader.omar@gmail.com</Email>
+            <DateDenaissance>2001-01-06</DateDenaissance>
+            <adresse>
+                <rue>Khalil jebrane</rue>
+                <Ville>El jadida</Ville>
+                <numero>31</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET28"  filiere="F01" >
+            <CIN>CF459822</CIN>
+            <NOM>KHARROUBI</NOM>
+            <PRENOM>Youness</PRENOM>
+            <Tele Type="fixe">0524610981</Tele>
+            <Email Type="personnel">KHARROUBI.youness@gmail.com</Email>
+            <DateDenaissance>2001-07-21</DateDenaissance>
+            <adresse>
+                <rue>CHAABA</rue>
+                <Ville>SAFI</Ville>
+                <numero>131</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET29"  filiere="F01">
+            <CIN>DR890654</CIN>
+            <NOM>KHEZAMI</NOM>
+            <PRENOM>Mohammed</PRENOM>
+            <Tele Type="fixe">0601432873</Tele>
+            <Email Type="personnel">KHEZAMI.hohammed@gmail.com</Email>
+            <DateDenaissance>2000-11-29</DateDenaissance>
+            <adresse>
+                <rue>KAOUKI</rue>
+                <Ville>SAFI</Ville>
+                <numero>09</numero>
+            </adresse>
+        </etudiant>
+         <etudiant IDEtu="ET30"  filiere="F01">
+             <CIN>DS564231</CIN>
+             <NOM>LAAGUIDI</NOM>
+             <PRENOM>Amine</PRENOM>
+             <Tele Type="fixe">0651209872</Tele>
+             <Email Type="personnel">LAAGUIDI.amin@gmail.com</Email>
+             <DateDenaissance>2000-02-16</DateDenaissance>
+             <adresse>
+                 <rue>ORANGE</rue>
+                 <Ville>CASA</Ville>
+                 <numero>154</numero>
+             </adresse>
+         </etudiant>
+        
+        
+        
+        <!--                        tm               -->
+        
+        <etudiant IDEtu="ET31"  filiere="F02">
+            <CIN>JE283017</CIN>
+            <NOM>AATTOUCHI</NOM>
+            <PRENOM>SIHAM</PRENOM>
+            <Tele Type="fixe">0663273409</Tele>
+            <Email Type="personnel">AATTOUCHI.SIHAM@gmail.com</Email>
+            <DateDenaissance>2001-12-30</DateDenaissance>
+            <adresse>
+                <rue>OUAD EL BACHA</rue>
+                <Ville>SAFI</Ville>
+                <numero>102</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET32"  filiere="F02">
+            <CIN>PE309145</CIN>
+            <NOM>AHLAOU</NOM>
+            <PRENOM>Aymane</PRENOM>
+            <Tele Type="fixe">0638209412</Tele>
+            <Email Type="personnel">AHLAOU.Aymane@gmail.com</Email>
+            <DateDenaissance>2001-09-18</DateDenaissance>
+            <adresse>
+                <rue>EL BIYAR</rue>
+                <Ville>SAFI</Ville>
+                <numero>263</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET33"  filiere="F02">
+            <CIN>HE209817</CIN>
+            <NOM>AIT AHMED</NOM>
+            <PRENOM>Ayoub</PRENOM>
+            <Tele Type="fixe">0723519826</Tele>
+            <Email Type="personnel">AITAHMED.Ayoub@gmail.com</Email>
+            <DateDenaissance>2001-03-29</DateDenaissance>
+            <adresse>
+                <rue>NWACER</rue>
+                <Ville>CASA</Ville>
+                <numero>873</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET34" filiere="F02" >
+            <CIN>HE356192</CIN>
+            <NOM>AIT TALEB</NOM>
+            <PRENOM>Zineb</PRENOM>
+            <Tele Type="fixe">0625187329</Tele>
+            <Email Type="personnel">AITTALEB.Zineb@gmail.com</Email>
+            <DateDenaissance>2001-01-29</DateDenaissance>
+            <adresse>
+                <rue>MASIRA</rue>
+                <Ville>SAFI</Ville>
+                <numero>183</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET35" filiere="F02" >
+            <CIN>KH652781</CIN>
+            <NOM>AREJDAL</NOM>
+            <PRENOM>MOHAMED</PRENOM>
+            <Tele Type="fixe">0762410985</Tele>
+            <Email Type="personnel">AREJDAL.MOHAMED@gmail.com</Email>
+            <DateDenaissance>2001-03-23</DateDenaissance>
+            <adresse>
+                <rue>OKBA BNOU NAFIAA</rue>
+                <Ville>SAFI</Ville>
+                <numero>305</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET36"  filiere="F02" >
+            <CIN>ZN675324</CIN>
+            <NOM>BABAMOU</NOM>
+            <PRENOM>SOUKAINA</PRENOM>
+            <Tele Type="fixe">0672390125</Tele>
+            <Email Type="personnel">BABAMOU.SOUKAINA@gmail.com</Email>
+            <DateDenaissance>2001-10-26</DateDenaissance>
+            <adresse>
+                <rue>IDRISSI</rue>
+                <Ville>SAFI</Ville>
+                <numero>23</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET37"  filiere="F02">
+            <CIN>YH876512</CIN>
+            <NOM>BENNOUNA</NOM>
+            <PRENOM>Omar</PRENOM>
+            <Tele Type="fixe">0672398137</Tele>
+            <Email Type="personnel">BENNOUNA.Omar@gmail.com</Email>
+            <DateDenaissance>2001-01-06</DateDenaissance>
+            <adresse>
+                <rue>KHAWARIZNI</rue>
+                <Ville>YOUSOFIA</Ville>
+                <numero>639</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET38"  filiere="F02">
+            <CIN>AB568312</CIN>
+            <NOM>BOUAIDA</NOM>
+            <PRENOM>Mohammed</PRENOM>
+            <Tele Type="fixe">0572430981</Tele>
+            <Email Type="personnel">BOUAIDA.Mohammed@gmail.com</Email>
+            <DateDenaissance>2001-01-20</DateDenaissance>
+            <adresse>
+                <rue>Khalil jebrane</rue>
+                <Ville>El jadida</Ville>
+                <numero>31</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET39"  filiere="F02">
+            <CIN>TH769024</CIN>
+            <NOM>BOUANANI</NOM>
+            <PRENOM>Mossaab</PRENOM>
+            <Tele Type="fixe">0628914376</Tele>
+            <Email Type="personnel">BOUANANI.Mossaab@gmail.com</Email>
+            <DateDenaissance>2001-12-01</DateDenaissance>
+            <adresse>
+                <rue>AMOUNI</rue>
+                <Ville>SAFI</Ville>
+                <numero>981</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET40"  filiere="F02">
+            <CIN>BE569034</CIN>
+            <NOM>CHEHAL</NOM>
+            <PRENOM>Salma</PRENOM>
+            <Tele Type="fixe">0724510876</Tele>
+            <Email Type="personnel">CHEHAL.Salma@gmail.com</Email>
+            <DateDenaissance>2001-11-09</DateDenaissance>
+            <adresse>
+                <rue>KINIDI</rue>
+                <Ville>SAFI</Ville>
+                <numero>261</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET41" filiere="F02" >
+            <CIN>FT453287</CIN>
+            <NOM>EL AZHAR</NOM>
+            <PRENOM>Yassamine</PRENOM>
+            <Tele Type="fixe">0627912053</Tele>
+            <Email Type="personnel">AZHAR.Yassamine@gmail.com</Email>
+            <DateDenaissance>2001-04-28</DateDenaissance>
+            <adresse>
+                <rue>LAMIA</rue>
+                <Ville>SAFI</Ville>
+                <numero>287</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET42"  filiere="F02">
+            <CIN>RA763267</CIN>
+            <NOM>EL FALSS</NOM>
+            <PRENOM>SALMA</PRENOM>
+            <Tele Type="fixe">0714529653</Tele>
+            <Email Type="personnel">FALSS.SALMA@gmail.com</Email>
+            <DateDenaissance>2000-10-15</DateDenaissance>
+            <adresse>
+                <rue>CHANGIT</rue>
+                <Ville>SAFI</Ville>
+                <numero>187</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET43"  filiere="F02">
+            <CIN>UW673219</CIN>
+            <NOM>EL IDRISSI</NOM>
+            <PRENOM>Kanza</PRENOM>
+            <Tele Type="fixe">0624513907</Tele>
+            <Email Type="personnel">IDRISSI.Kanza@gmail.com</Email>
+            <DateDenaissance>2001-05-13</DateDenaissance>
+            <adresse>
+                <rue>SALAM</rue>
+                <Ville>AGADIR</Ville>
+                <numero>279</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET44"  filiere="F02">
+            <CIN>PC982851</CIN>
+            <NOM>ELJARIDI</NOM>
+            <PRENOM>Amr</PRENOM>
+            <Tele Type="fixe">0724510643</Tele>
+            <Email Type="personnel">ELJARIDI.Amr@gmail.com</Email>
+            <DateDenaissance>2001-06-05</DateDenaissance>
+            <adresse>
+                <rue>DAR BOUAOUDA</rue>
+                <Ville>SAFI</Ville>
+                <numero>371</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET45"  filiere="F02">
+            <CIN>TL872315</CIN>
+            <NOM>ELMASBAHI</NOM>
+            <PRENOM>Khouloud</PRENOM>
+            <Tele Type="fixe">0761324097</Tele>
+            <Email Type="personnel">ELMASBAHI.Khouloud@gmail.com</Email>
+            <DateDenaissance>2000-12-02</DateDenaissance>
+            <adresse>
+                <rue>MAARIF</rue>
+                <Ville>CASA</Ville>
+                <numero>196</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET46"  filiere="F02">
+            <CIN>YS789324</CIN>
+            <NOM>ER-RAZZOUQI</NOM>
+            <PRENOM>Nidal</PRENOM>
+            <Tele Type="fixe">0734529874</Tele>
+            <Email Type="personnel">ER-RAZZOUQI.Nidal@gmail.com</Email>
+            <DateDenaissance>2001-09-16</DateDenaissance>
+            <adresse>
+                <rue>MATAR</rue>
+                <Ville>SAFI</Ville>
+                <numero>291</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET47"  filiere="F02">
+            <CIN>VX760926</CIN>
+            <NOM>EL KASSAH</NOM>
+            <PRENOM>Wiam</PRENOM>
+            <Tele Type="fixe">0623424098</Tele>
+            <Email Type="personnel">ELKASSAH.wiam@gmail.com</Email>
+            <DateDenaissance>2001-12-17</DateDenaissance>
+            <adresse>
+                <rue>SIDI BOUZID</rue>
+                <Ville>SAFI</Ville>
+                <numero>31</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET48"  filiere="F02" >
+            <CIN>HG340925</CIN>
+            <NOM>ES-SAFI</NOM>
+            <PRENOM>Yassine</PRENOM>
+            <Tele Type="fixe">0565289120</Tele>
+            <Email Type="personnel">ES-SAFI.Yassine@gmail.com</Email>
+            <DateDenaissance>2001-01-30</DateDenaissance>
+            <adresse>
+                <rue>ZITOUN</rue>
+                <Ville>El jadida</Ville>
+                <numero>315</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET49"  filiere="F02">
+            <CIN>AQ346512</CIN>
+            <NOM>FADLI</NOM>
+            <PRENOM>Alaa Eddine</PRENOM>
+            <Tele Type="fixe">0629871428</Tele>
+            <Email Type="personnel">FADLI.AlaaEddine@gmail.com</Email>
+            <DateDenaissance>2000-11-14</DateDenaissance>
+            <adresse>
+                <rue>SANIA</rue>
+                <Ville>SAFI</Ville>
+                <numero>129</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET50"  filiere="F02">
+            <CIN>XN764509</CIN>
+            <NOM>ICHY</NOM>
+            <PRENOM>Ikram</PRENOM>
+            <Tele Type="fixe">0723410987</Tele>
+            <Email Type="personnel">ICHY.Ikram@gmail.com</Email>
+            <DateDenaissance>2001-06-23</DateDenaissance>
+            <adresse>
+                <rue>HAY SINAI</rue>
+                <Ville>SAFI</Ville>
+                <numero>13</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET51" filiere="F02" >
+            <CIN>GB762366</CIN>
+            <NOM>IDBRAIK</NOM>
+            <PRENOM>HAMZA</PRENOM>
+            <Tele Type="fixe">0762479434</Tele>
+            <Email Type="personnel">IDBRAIK.HAMZA@gmail.com</Email>
+            <DateDenaissance>2000-11-27</DateDenaissance>
+            <adresse>
+                <rue>AIN ZERKA</rue>
+                <Ville>TIZNIT</Ville>
+                <numero>165</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET52" filiere="F02" >
+            <CIN>CV442791</CIN>
+            <NOM>KARBAL</NOM>
+            <PRENOM>AYMAN</PRENOM>
+            <Tele Type="fixe">0690871342</Tele>
+            <Email Type="personnel">KARBAL.AYMAN@gmail.com</Email>
+            <DateDenaissance>2001-12-03</DateDenaissance>
+            <adresse>
+                <rue>MOHAMMED V</rue>
+                <Ville>ESSAOUIRA</Ville>
+                <numero>542</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET53"  filiere="F02">
+            <CIN>PK980076</CIN>
+            <NOM>KEZIZ</NOM>
+            <PRENOM>Hanan</PRENOM>
+            <Tele Type="fixe">0617263504</Tele>
+            <Email Type="personnel">KEZIZ.Hanan@gmail.com</Email>
+            <DateDenaissance>2001-08-24</DateDenaissance>
+            <adresse>
+                <rue>JRAIFAT</rue>
+                <Ville>SAFI</Ville>
+                <numero>82</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET54"   filiere="F02">
+            <CIN>XW568711</CIN>
+            <NOM>KRIM</NOM>
+            <PRENOM>Nouhaila</PRENOM>
+            <Tele Type="fixe">0556420987</Tele>
+            <Email Type="personnel">KRIM.Nouhaila@gmail.com</Email>
+            <DateDenaissance>2001-02-13</DateDenaissance>
+            <adresse>
+                <rue>MOKAWAMA</rue>
+                <Ville>FES</Ville>
+                <numero>431</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET55"  filiere="F02">
+            <CIN>KU760434</CIN>
+            <NOM>LAANAYA</NOM>
+            <PRENOM>Ghita</PRENOM>
+            <Tele Type="fixe">0601982567</Tele>
+            <Email Type="personnel">LAANAYA.Ghita@gmail.com</Email>
+            <DateDenaissance>1999-03-19</DateDenaissance>
+            <adresse>
+                <rue>NAKHIL</rue>
+                <Ville>MARAKKECH</Ville>
+                <numero>245</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET56" filiere="F02" >
+            <CIN>HX349865</CIN>
+            <NOM>LABROUZI</NOM>
+            <PRENOM>Anis</PRENOM>
+            <Tele Type="fixe">0535268120</Tele>
+            <Email Type="personnel">LABROUZI.Anis@gmail.com</Email>
+            <DateDenaissance>2001-10-08</DateDenaissance>
+            <adresse>
+                <rue>Dewar Rmal</rue>
+                <Ville>SAFI</Ville>
+                <numero>654</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET57"  filiere="F02">
+            <CIN>JE562198</CIN>
+            <NOM>LABSSITE</NOM>
+            <PRENOM>IMANE</PRENOM>
+            <Tele Type="fixe">0690100531</Tele>
+            <Email Type="personnel">LABSSITE.IMANE@gmail.com</Email>
+            <DateDenaissance>2001-01-06</DateDenaissance>
+            <adresse>
+                <rue>Khalil jebrane</rue>
+                <Ville>El jadida</Ville>
+                <numero>31</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET58"  filiere="F02" >
+            <CIN>CF459822</CIN>
+            <NOM>LAHRACH</NOM>
+            <PRENOM>Nissrine</PRENOM>
+            <Tele Type="fixe">0524610981</Tele>
+            <Email Type="personnel">LAHRACH.Nissrine@gmail.com</Email>
+            <DateDenaissance>2001-07-21</DateDenaissance>
+            <adresse>
+                <rue>CHAABA</rue>
+                <Ville>SAFI</Ville>
+                <numero>131</numero>
+            </adresse>
+        </etudiant>
+        <etudiant IDEtu="ET59"  filiere="F02">
+            <CIN>DR890654</CIN>
+            <NOM>LAKRIM</NOM>
+            <PRENOM>Fatima</PRENOM>
+            <Tele Type="fixe">0601432873</Tele>
+            <Email Type="personnel">LAKRIM.Fatima@gmail.com</Email>
+            <DateDenaissance>2000-11-29</DateDenaissance>
+            <adresse>
+                <rue>KAOUKI</rue>
+                <Ville>SAFI</Ville>
+                <numero>09</numero>
+            </adresse>
+        </etudiant>
+         <etudiant IDEtu="ET60"  filiere="F02">
+             <CIN>DS564231</CIN>
+             <NOM>MAGRACH</NOM>
+             <PRENOM>YASSINE</PRENOM>
+             <Tele Type="fixe">0651209872</Tele>
+             <Email Type="personnel">MAGRACH.YASSINE@gmail.com</Email>
+             <DateDenaissance>2000-02-16</DateDenaissance>
+             <adresse>
+                 <rue>ORANGE</rue>
+                 <Ville>CASA</Ville>
+                 <numero>154</numero>
+             </adresse>
+         </etudiant>
+        
+    </etudiants>
+    <matieres>
+        <matiere module="M01" enseingnat="E01" IDMatiere="Mat01" coefficient="0.50">
+            <Intitule>XML</Intitule>
+        </matiere>
+        <matiere module="M01" enseingnat="E04" IDMatiere="Mat02" coefficient="0.50">
+            <Intitule>PHP</Intitule>
+        </matiere>
+        <matiere module="M02" enseingnat="E06" IDMatiere="Mat03" coefficient="1">
+            <Intitule>Programmation oriente objet</Intitule>
+        </matiere>
+        <matiere module="M03" enseingnat="E11" IDMatiere="Mat04" coefficient="0.5">
+            <Intitule>Anglais</Intitule>
+        </matiere>
+        <matiere module="M03" enseingnat="E03" IDMatiere="Mat05" coefficient="0.5">
+            <Intitule>Francais</Intitule>
+        </matiere>
+        <matiere module="M04" enseingnat="E10" IDMatiere="Mat06" coefficient="1">
+            <Intitule>Bases de donnees avancee</Intitule>
+        </matiere>
+        <matiere module="M05" enseingnat="E02" IDMatiere="Mat07" coefficient="1">
+            <Intitule>Programmation avencee J2EE</Intitule>
+        </matiere>
+        <matiere module="M06" enseingnat="E05" IDMatiere="Mat08" coefficient="1">
+            <Intitule>Administration system et reseaux</Intitule>
+        </matiere>
+        <matiere module="M11" enseingnat="E05" IDMatiere="Mat14" coefficient="0.50">
+            <Intitule>Fiscalite</Intitule>
+        </matiere>
+        <matiere module="M11" enseingnat="E05" IDMatiere="Mat15" coefficient="0.50">
+            <Intitule>Droit des affaires</Intitule>
+        </matiere>
+        <matiere module="M10" enseingnat="E05" IDMatiere="Mat16" coefficient="0.50">
+            <Intitule>Travaux d’inventaire</Intitule>
+        </matiere>
+        <matiere module="M10" enseingnat="E05" IDMatiere="Mat17" coefficient="0.50">
+            <Intitule>Comptabilité des sociétés</Intitule>
+        </matiere>
+        
+    </matieres> 
+    <Notes>
+        <!--                 DS EXM                   -->      
+        <note IDEtudiant="ET01" valeur="18" exam="Ex01"/>
+        <note IDEtudiant="ET02" valeur="16" exam="Ex01"/>
+        <note IDEtudiant="ET03" valeur="10" exam="Ex01"/>
+        <note IDEtudiant="ET04" valeur="18" exam="Ex01"/>
+        <note IDEtudiant="ET05" valeur="17" exam="Ex01"/>
+        <note IDEtudiant="ET06" valeur="20" exam="Ex01"/>
+        <note IDEtudiant="ET07" valeur="16" exam="Ex01"/>
+        <note IDEtudiant="ET08" valeur="14" exam="Ex01"/>
+        <note IDEtudiant="ET09" valeur="19" exam="Ex01"/>
+        <note IDEtudiant="ET10" valeur="18.5" exam="Ex01"/>
+        <note IDEtudiant="ET11" valeur="17" exam="Ex01"/>
+        <note IDEtudiant="ET12" valeur="14" exam="Ex01"/>
+        <note IDEtudiant="ET13" valeur="18" exam="Ex01"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex01"/>
+        <note IDEtudiant="ET15" valeur="20" exam="Ex01"/>
+        <note IDEtudiant="ET16" valeur="14.5" exam="Ex01"/>
+        <note IDEtudiant="ET17" valeur="15" exam="Ex01"/>
+        <note IDEtudiant="ET18" valeur="15" exam="Ex01"/>
+        <note IDEtudiant="ET19" valeur="20" exam="Ex01"/>
+        <note IDEtudiant="ET20" valeur="15.5" exam="Ex01"/>
+        <note IDEtudiant="ET21" valeur="17" exam="Ex01"/>
+        <note IDEtudiant="ET23" valeur="17" exam="Ex01"/>
+        <note IDEtudiant="ET24" valeur="12.5" exam="Ex01"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex01"/>
+        <note IDEtudiant="ET26" valeur="14" exam="Ex01"/>
+        <note IDEtudiant="ET27" valeur="16" exam="Ex01"/>
+        <note IDEtudiant="ET28" valeur="17" exam="Ex01"/>
+        <note IDEtudiant="ET29" valeur="18" exam="Ex01"/>
+        <note IDEtudiant="ET30" valeur="19" exam="Ex01"/>
+        
+        <!--                EXAM EXM                  -->
+        
+        <note IDEtudiant="ET01" valeur="13" exam="Ex02"/>
+        <note IDEtudiant="ET02" valeur="14" exam="Ex02"/>
+        <note IDEtudiant="ET03" valeur="17" exam="Ex02"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex02"/>
+        <note IDEtudiant="ET05" valeur="15" exam="Ex02"/>
+        <note IDEtudiant="ET06" valeur="17" exam="Ex02"/>
+        <note IDEtudiant="ET07" valeur="16" exam="Ex02"/>
+        <note IDEtudiant="ET08" valeur="13" exam="Ex02"/>
+        <note IDEtudiant="ET09" valeur="11" exam="Ex02"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex02"/>
+        <note IDEtudiant="ET11" valeur="20" exam="Ex02"/>
+        <note IDEtudiant="ET12" valeur="13" exam="Ex02"/>
+        <note IDEtudiant="ET13" valeur="14" exam="Ex02"/>
+        <note IDEtudiant="ET14" valeur="17.5" exam="Ex02"/>
+        <note IDEtudiant="ET15" valeur="12" exam="Ex02"/>
+        <note IDEtudiant="ET16" valeur="16.5" exam="Ex02"/>
+        <note IDEtudiant="ET17" valeur="19" exam="Ex02"/>
+        <note IDEtudiant="ET18" valeur="17" exam="Ex02"/>
+        <note IDEtudiant="ET19" valeur="12" exam="Ex02"/>
+        <note IDEtudiant="ET20" valeur="17.5" exam="Ex02"/>
+        <note IDEtudiant="ET21" valeur="17" exam="Ex02"/>
+        <note IDEtudiant="ET23" valeur="17" exam="Ex02"/>
+        <note IDEtudiant="ET24" valeur="18.5" exam="Ex02"/>
+        <note IDEtudiant="ET25" valeur="17.5" exam="Ex02"/>
+        <note IDEtudiant="ET26" valeur="16" exam="Ex02"/>
+        <note IDEtudiant="ET27" valeur="16" exam="Ex02"/>
+        <note IDEtudiant="ET28" valeur="10" exam="Ex02"/>
+        <note IDEtudiant="ET29" valeur="11" exam="Ex02"/>
+        <note IDEtudiant="ET30" valeur="18.5" exam="Ex02"/>
+        
+        <!--                Projet xml                   -->
+        
+        
+        <note IDEtudiant="ET01" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET02" valeur="14" exam="Ex03"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET04" valeur="15.5" exam="Ex03"/>
+        <note IDEtudiant="ET05" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET06" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET07" valeur="16.5" exam="Ex03"/>
+        <note IDEtudiant="ET08" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex03"/>
+        <note IDEtudiant="ET11" valeur="18" exam="Ex03"/>
+        <note IDEtudiant="ET12" valeur="17" exam="Ex03"/>
+        <note IDEtudiant="ET13" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET14" valeur="17.5" exam="Ex03"/>
+        <note IDEtudiant="ET15" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET16" valeur="17.5" exam="Ex03"/>
+        <note IDEtudiant="ET17" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET18" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET19" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET20" valeur="17.5" exam="Ex03"/>
+        <note IDEtudiant="ET21" valeur="17" exam="Ex03"/>
+        <note IDEtudiant="ET23" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET24" valeur="17.5" exam="Ex03"/>
+        <note IDEtudiant="ET25" valeur="18.5" exam="Ex03"/>
+        <note IDEtudiant="ET26" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET28" valeur="16" exam="Ex03"/>
+        <note IDEtudiant="ET29" valeur="15" exam="Ex03"/>
+        <note IDEtudiant="ET30" valeur="16.5" exam="Ex03"/>
+        
+        <!--                DS PHP                      -->
+        
+        <note IDEtudiant="ET01" valeur="12" exam="Ex04"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex04"/>
+        <note IDEtudiant="ET03" valeur="11" exam="Ex04"/>
+        <note IDEtudiant="ET04" valeur="15.5" exam="Ex04"/>
+        <note IDEtudiant="ET05" valeur="14" exam="Ex04"/>
+        <note IDEtudiant="ET06" valeur="11" exam="Ex04"/>
+        <note IDEtudiant="ET07" valeur="18.5" exam="Ex04"/>
+        <note IDEtudiant="ET08" valeur="13" exam="Ex04"/>
+        <note IDEtudiant="ET09" valeur="14" exam="Ex04"/>
+        <note IDEtudiant="ET10" valeur="12.5" exam="Ex04"/>
+        <note IDEtudiant="ET11" valeur="11" exam="Ex04"/>
+        <note IDEtudiant="ET12" valeur="12" exam="Ex04"/>
+        <note IDEtudiant="ET13" valeur="16" exam="Ex04"/>
+        <note IDEtudiant="ET14" valeur="17.5" exam="Ex04"/>
+        <note IDEtudiant="ET15" valeur="13" exam="Ex04"/>
+        <note IDEtudiant="ET16" valeur="11.5" exam="Ex04"/>
+        <note IDEtudiant="ET17" valeur="10" exam="Ex04"/>
+        <note IDEtudiant="ET18" valeur="10" exam="Ex04"/>
+        <note IDEtudiant="ET19" valeur="14" exam="Ex04"/>
+        <note IDEtudiant="ET20" valeur="16.5" exam="Ex04"/>
+        <note IDEtudiant="ET21" valeur="12" exam="Ex04"/>
+        <note IDEtudiant="ET23" valeur="17" exam="Ex04"/>
+        <note IDEtudiant="ET24" valeur="16.5" exam="Ex04"/>
+        <note IDEtudiant="ET25" valeur="14.5" exam="Ex04"/>
+        <note IDEtudiant="ET26" valeur="16" exam="Ex04"/>
+        <note IDEtudiant="ET27" valeur="18" exam="Ex04"/>
+        <note IDEtudiant="ET28" valeur="19" exam="Ex04"/>
+        <note IDEtudiant="ET29" valeur="16" exam="Ex04"/>
+        <note IDEtudiant="ET30" valeur="13.5" exam="Ex04"/>
+        
+        
+        <!--            exam php                        -->
+        
+        <note IDEtudiant="ET01" valeur="16" exam="Ex05"/>
+        <note IDEtudiant="ET02" valeur="15" exam="Ex05"/>
+        <note IDEtudiant="ET03" valeur="19" exam="Ex05"/>
+        <note IDEtudiant="ET04" valeur="13.5" exam="Ex05"/>
+        <note IDEtudiant="ET05" valeur="16" exam="Ex05"/>
+        <note IDEtudiant="ET06" valeur="17" exam="Ex05"/>
+        <note IDEtudiant="ET07" valeur="15.5" exam="Ex05"/>
+        <note IDEtudiant="ET08" valeur="15" exam="Ex05"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex05"/>
+        <note IDEtudiant="ET10" valeur="11.5" exam="Ex05"/>
+        <note IDEtudiant="ET11" valeur="14" exam="Ex05"/>
+        <note IDEtudiant="ET12" valeur="14.5" exam="Ex05"/>
+        <note IDEtudiant="ET13" valeur="16" exam="Ex05"/>
+        <note IDEtudiant="ET14" valeur="14.5" exam="Ex05"/>
+        <note IDEtudiant="ET15" valeur="16" exam="Ex05"/>
+        <note IDEtudiant="ET16" valeur="13.5" exam="Ex05"/>
+        <note IDEtudiant="ET17" valeur="14" exam="Ex05"/>
+        <note IDEtudiant="ET18" valeur="12" exam="Ex05"/>
+        <note IDEtudiant="ET19" valeur="19" exam="Ex05"/>
+        <note IDEtudiant="ET20" valeur="16.5" exam="Ex05"/>
+        <note IDEtudiant="ET21" valeur="13" exam="Ex05"/>
+        <note IDEtudiant="ET23" valeur="17" exam="Ex05"/>
+        <note IDEtudiant="ET24" valeur="12.5" exam="Ex05"/>
+        <note IDEtudiant="ET25" valeur="18.5" exam="Ex05"/>
+        <note IDEtudiant="ET26" valeur="18" exam="Ex05"/>
+        <note IDEtudiant="ET27" valeur="16" exam="Ex05"/>
+        <note IDEtudiant="ET28" valeur="13" exam="Ex05"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex05"/>
+        <note IDEtudiant="ET30" valeur="17.5" exam="Ex05"/>
+        
+         <!--               projet php                   -->
+        
+        
+        <note IDEtudiant="ET01" valeur="13" exam="Ex06"/>
+        <note IDEtudiant="ET02" valeur="15" exam="Ex06"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex06"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex06"/>
+        <note IDEtudiant="ET05" valeur="17" exam="Ex06"/>
+        <note IDEtudiant="ET06" valeur="17" exam="Ex06"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex06"/>
+        <note IDEtudiant="ET08" valeur="13" exam="Ex06"/>
+        <note IDEtudiant="ET09" valeur="19" exam="Ex06"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex06"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex06"/>
+        <note IDEtudiant="ET12" valeur="17" exam="Ex06"/>
+        <note IDEtudiant="ET13" valeur="13" exam="Ex06"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex06"/>
+        <note IDEtudiant="ET15" valeur="16" exam="Ex06"/>
+        <note IDEtudiant="ET16" valeur="16.5" exam="Ex06"/>
+        <note IDEtudiant="ET17" valeur="15" exam="Ex06"/>
+        <note IDEtudiant="ET18" valeur="13" exam="Ex06"/>
+        <note IDEtudiant="ET19" valeur="13" exam="Ex06"/>
+        <note IDEtudiant="ET20" valeur="17.5" exam="Ex06"/>
+        <note IDEtudiant="ET21" valeur="16" exam="Ex06"/>
+        <note IDEtudiant="ET23" valeur="15" exam="Ex06"/>
+        <note IDEtudiant="ET24" valeur="15.5" exam="Ex06"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex06"/>
+        <note IDEtudiant="ET26" valeur="13" exam="Ex06"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex06"/>
+        <note IDEtudiant="ET28" valeur="17" exam="Ex06"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex06"/>
+        <note IDEtudiant="ET30" valeur="18.5" exam="Ex06"/>
+        
+        
+        <!--            ds uml                   -->
+        
+        <note IDEtudiant="ET01" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET03" valeur="14" exam="Ex07"/>
+        <note IDEtudiant="ET04" valeur="15.5" exam="Ex07"/>
+        <note IDEtudiant="ET05" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET06" valeur="14" exam="Ex07"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex07"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex07"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex07"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex07"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex07"/>
+        <note IDEtudiant="ET12" valeur="16" exam="Ex07"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex07"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex07"/>
+        <note IDEtudiant="ET15" valeur="15" exam="Ex07"/>
+        <note IDEtudiant="ET16" valeur="15.5" exam="Ex07"/>
+        <note IDEtudiant="ET17" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET18" valeur="12" exam="Ex07"/>
+        <note IDEtudiant="ET19" valeur="11.5" exam="Ex07"/>
+        <note IDEtudiant="ET20" valeur="17" exam="Ex07"/>
+        <note IDEtudiant="ET21" valeur="11" exam="Ex07"/>
+        <note IDEtudiant="ET23" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex07"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex07"/>
+        <note IDEtudiant="ET26" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex07"/>
+        <note IDEtudiant="ET28" valeur="13" exam="Ex07"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex07"/>
+        <note IDEtudiant="ET30" valeur="14.5" exam="Ex07"/>
+        
+        
+        <!--     exam uml                               -->
+        
+        <note IDEtudiant="ET01" valeur="17" exam="Ex08"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex08"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex08"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex08"/>
+        <note IDEtudiant="ET05" valeur="14" exam="Ex08"/>
+        <note IDEtudiant="ET06" valeur="15" exam="Ex08"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex08"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex08"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex08"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex08"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex08"/>
+        <note IDEtudiant="ET12" valeur="18" exam="Ex08"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex08"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex08"/>
+        <note IDEtudiant="ET15" valeur="17" exam="Ex08"/>
+        <note IDEtudiant="ET16" valeur="14.5" exam="Ex08"/>
+        <note IDEtudiant="ET17" valeur="16" exam="Ex08"/>
+        <note IDEtudiant="ET18" valeur="14" exam="Ex08"/>
+        <note IDEtudiant="ET19" valeur="18.5" exam="Ex08"/>
+        <note IDEtudiant="ET20" valeur="14" exam="Ex08"/>
+        <note IDEtudiant="ET21" valeur="15" exam="Ex08"/>
+        <note IDEtudiant="ET23" valeur="13.5" exam="Ex08"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex08"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex08"/>
+        <note IDEtudiant="ET26" valeur="15" exam="Ex08"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex08"/>
+        <note IDEtudiant="ET28" valeur="13.5" exam="Ex08"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex08"/>
+        <note IDEtudiant="ET30" valeur="15.5" exam="Ex08"/>
+        
+        
+        <note IDEtudiant="ET01" valeur="16" exam="Ex09"/>
+        <note IDEtudiant="ET02" valeur="15" exam="Ex09"/>
+        <note IDEtudiant="ET03" valeur="19" exam="Ex09"/>
+        <note IDEtudiant="ET04" valeur="13.5" exam="Ex09"/>
+        <note IDEtudiant="ET05" valeur="16" exam="Ex09"/>
+        <note IDEtudiant="ET06" valeur="17" exam="Ex09"/>
+        <note IDEtudiant="ET07" valeur="15.5" exam="Ex09"/>
+        <note IDEtudiant="ET08" valeur="15" exam="Ex09"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex09"/>
+        <note IDEtudiant="ET10" valeur="11.5" exam="Ex09"/>
+        <note IDEtudiant="ET11" valeur="14" exam="Ex09"/>
+        <note IDEtudiant="ET12" valeur="14.5" exam="Ex09"/>
+        <note IDEtudiant="ET13" valeur="16" exam="Ex09"/>
+        <note IDEtudiant="ET14" valeur="14.5" exam="Ex09"/>
+        <note IDEtudiant="ET15" valeur="16" exam="Ex09"/>
+        <note IDEtudiant="ET16" valeur="13.5" exam="Ex09"/>
+        <note IDEtudiant="ET17" valeur="14" exam="Ex09"/>
+        <note IDEtudiant="ET18" valeur="12" exam="Ex09"/>
+        <note IDEtudiant="ET19" valeur="19" exam="Ex09"/>
+        <note IDEtudiant="ET20" valeur="16.5" exam="Ex09"/>
+        <note IDEtudiant="ET21" valeur="13" exam="Ex09"/>
+        <note IDEtudiant="ET23" valeur="17" exam="Ex09"/>
+        <note IDEtudiant="ET24" valeur="12.5" exam="Ex09"/>
+        <note IDEtudiant="ET25" valeur="18.5" exam="Ex09"/>
+        <note IDEtudiant="ET26" valeur="18" exam="Ex09"/>
+        <note IDEtudiant="ET27" valeur="16" exam="Ex09"/>
+        <note IDEtudiant="ET28" valeur="13" exam="Ex09"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex09"/>
+        <note IDEtudiant="ET30" valeur="17.5" exam="Ex09"/>
+        <!--        Exam   anglais                       -->
+        
+        
+        <note IDEtudiant="ET01" valeur="13" exam="Ex10"/>
+        <note IDEtudiant="ET02" valeur="15" exam="Ex10"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex10"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex10"/>
+        <note IDEtudiant="ET05" valeur="17" exam="Ex10"/>
+        <note IDEtudiant="ET06" valeur="17" exam="Ex10"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex10"/>
+        <note IDEtudiant="ET08" valeur="13" exam="Ex10"/>
+        <note IDEtudiant="ET09" valeur="19" exam="Ex10"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex10"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex10"/>
+        <note IDEtudiant="ET12" valeur="17" exam="Ex10"/>
+        <note IDEtudiant="ET13" valeur="13" exam="Ex10"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex10"/>
+        <note IDEtudiant="ET15" valeur="16" exam="Ex10"/>
+        <note IDEtudiant="ET16" valeur="16.5" exam="Ex10"/>
+        <note IDEtudiant="ET17" valeur="15" exam="Ex10"/>
+        <note IDEtudiant="ET18" valeur="13" exam="Ex10"/>
+        <note IDEtudiant="ET19" valeur="13" exam="Ex10"/>
+        <note IDEtudiant="ET20" valeur="17.5" exam="Ex10"/>
+        <note IDEtudiant="ET21" valeur="16" exam="Ex10"/>
+        <note IDEtudiant="ET23" valeur="15" exam="Ex10"/>
+        <note IDEtudiant="ET24" valeur="15.5" exam="Ex10"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex10"/>
+        <note IDEtudiant="ET26" valeur="13" exam="Ex10"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex10"/>
+        <note IDEtudiant="ET28" valeur="17" exam="Ex10"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex10"/>
+        <note IDEtudiant="ET30" valeur="14" exam="Ex10"/>
+        
+        
+        <!--            exam french                  -->
+        
+        <note IDEtudiant="ET01" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET03" valeur="14" exam="Ex11"/>
+        <note IDEtudiant="ET04" valeur="15.5" exam="Ex11"/>
+        <note IDEtudiant="ET05" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET06" valeur="14" exam="Ex11"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex11"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex11"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex11"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex11"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex11"/>
+        <note IDEtudiant="ET12" valeur="16" exam="Ex11"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex11"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex11"/>
+        <note IDEtudiant="ET15" valeur="15" exam="Ex11"/>
+        <note IDEtudiant="ET16" valeur="15.5" exam="Ex11"/>
+        <note IDEtudiant="ET17" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET18" valeur="12" exam="Ex11"/>
+        <note IDEtudiant="ET19" valeur="11.5" exam="Ex11"/>
+        <note IDEtudiant="ET20" valeur="17" exam="Ex11"/>
+        <note IDEtudiant="ET21" valeur="11" exam="Ex11"/>
+        <note IDEtudiant="ET23" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex11"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex11"/>
+        <note IDEtudiant="ET26" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex11"/>
+        <note IDEtudiant="ET28" valeur="13" exam="Ex11"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex11"/>
+        <note IDEtudiant="ET30" valeur="14.5" exam="Ex11"/>
+        
+        <!--   projet java                             -->
+        
+        <note IDEtudiant="ET01" valeur="17" exam="Ex12"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex12"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex12"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex12"/>
+        <note IDEtudiant="ET05" valeur="14" exam="Ex12"/>
+        <note IDEtudiant="ET06" valeur="15" exam="Ex12"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex12"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex12"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex12"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex12"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex12"/>
+        <note IDEtudiant="ET12" valeur="18" exam="Ex12"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex12"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex12"/>
+        <note IDEtudiant="ET15" valeur="17" exam="Ex12"/>
+        <note IDEtudiant="ET16" valeur="14.5" exam="Ex12"/>
+        <note IDEtudiant="ET17" valeur="16" exam="Ex12"/>
+        <note IDEtudiant="ET18" valeur="14" exam="Ex12"/>
+        <note IDEtudiant="ET19" valeur="18.5" exam="Ex12"/>
+        <note IDEtudiant="ET20" valeur="14" exam="Ex12"/>
+        <note IDEtudiant="ET21" valeur="15" exam="Ex12"/>
+        <note IDEtudiant="ET23" valeur="13.5" exam="Ex12"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex12"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex12"/>
+        <note IDEtudiant="ET26" valeur="15" exam="Ex12"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex12"/>
+        <note IDEtudiant="ET28" valeur="13.5" exam="Ex12"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex12"/>
+        <note IDEtudiant="ET30" valeur="15.5" exam="Ex12"/>
+        
+        <!--              exam java                 -->
+        
+        <note IDEtudiant="ET01" valeur="17" exam="Ex13"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex13"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex13"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex13"/>
+        <note IDEtudiant="ET05" valeur="14" exam="Ex13"/>
+        <note IDEtudiant="ET06" valeur="15" exam="Ex13"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex13"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex13"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex13"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex13"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex13"/>
+        <note IDEtudiant="ET12" valeur="18" exam="Ex13"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex13"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex13"/>
+        <note IDEtudiant="ET15" valeur="17" exam="Ex13"/>
+        <note IDEtudiant="ET16" valeur="14.5" exam="Ex13"/>
+        <note IDEtudiant="ET17" valeur="16" exam="Ex13"/>
+        <note IDEtudiant="ET18" valeur="14" exam="Ex13"/>
+        <note IDEtudiant="ET19" valeur="18.5" exam="Ex13"/>
+        <note IDEtudiant="ET20" valeur="14" exam="Ex13"/>
+        <note IDEtudiant="ET21" valeur="15" exam="Ex13"/>
+        <note IDEtudiant="ET23" valeur="13.5" exam="Ex13"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex13"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex13"/>
+        <note IDEtudiant="ET26" valeur="15" exam="Ex13"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex13"/>
+        <note IDEtudiant="ET28" valeur="13.5" exam="Ex13"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex13"/>
+        <note IDEtudiant="ET30" valeur="15.5" exam="Ex13"/>
+        
+        
+        <note IDEtudiant="ET01" valeur="17" exam="Ex14"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex14"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex14"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex14"/>
+        <note IDEtudiant="ET05" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET06" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex14"/>
+        <note IDEtudiant="ET12" valeur="18" exam="Ex14"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex14"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex14"/>
+        <note IDEtudiant="ET15" valeur="17" exam="Ex14"/>
+        <note IDEtudiant="ET16" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET17" valeur="16" exam="Ex14"/>
+        <note IDEtudiant="ET18" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET19" valeur="18.5" exam="Ex14"/>
+        <note IDEtudiant="ET20" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET21" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET23" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET26" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET28" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET30" valeur="15.5" exam="Ex14"/>
+        
+        
+        
+        <note IDEtudiant="ET01" valeur="17" exam="Ex15"/>
+        <note IDEtudiant="ET02" valeur="13" exam="Ex15"/>
+        <note IDEtudiant="ET03" valeur="16" exam="Ex15"/>
+        <note IDEtudiant="ET04" valeur="16.5" exam="Ex15"/>
+        <note IDEtudiant="ET05" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET06" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET07" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET08" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET09" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET10" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET11" valeur="12" exam="Ex15"/>
+        <note IDEtudiant="ET12" valeur="18" exam="Ex15"/>
+        <note IDEtudiant="ET13" valeur="16.5" exam="Ex15"/>
+        <note IDEtudiant="ET14" valeur="16.5" exam="Ex15"/>
+        <note IDEtudiant="ET15" valeur="17" exam="Ex15"/>
+        <note IDEtudiant="ET16" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET17" valeur="16" exam="Ex15"/>
+        <note IDEtudiant="ET18" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET19" valeur="18.5" exam="Ex15"/>
+        <note IDEtudiant="ET20" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET21" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET23" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET24" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET25" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET26" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET27" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET28" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET29" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET30" valeur="15.5" exam="Ex15"/>
+        
+        
+        
+        <!--               ds1  tm                    
+        <note IDEtudiant="ET31" valeur="17" exam="Ex14"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex14"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex14"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex14"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex14"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex14"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex14"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex14"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex14"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex14"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex14"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex14"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex14"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex14"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex14"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex14"/>
+        -->
+        <!-- exam1 tm 
+        <note IDEtudiant="ET31" valeur="17" exam="Ex15"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex15"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex15"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex15"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex15"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex15"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex15"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex15"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex15"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex15"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex15"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex15"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex15"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex15"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex15"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex15"/>
+        -->
+        <!-- ds2 tm -->
+        <note IDEtudiant="ET31" valeur="17" exam="Ex16"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex16"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex16"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex16"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex16"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex16"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex16"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex16"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex16"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex16"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex16"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex16"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex16"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex16"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex16"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex16"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex16"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex16"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex16"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex16"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex16"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex16"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex16"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex16"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex16"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex16"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex16"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex16"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex16"/>
+        
+        <!-- ds3 tm -->
+        <note IDEtudiant="ET31" valeur="17" exam="Ex18"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex18"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex18"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex18"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex18"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex18"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex18"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex18"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex18"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex18"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex18"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex18"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex18"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex18"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex18"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex18"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex18"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex18"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex18"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex18"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex18"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex18"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex18"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex18"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex18"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex18"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex18"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex18"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex18"/>
+        
+        <!-- ds4 tm -->
+        <note IDEtudiant="ET31" valeur="17" exam="Ex20"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex20"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex20"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex20"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex20"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex20"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex20"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex20"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex20"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex20"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex20"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex20"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex20"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex20"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex20"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex20"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex20"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex20"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex20"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex20"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex20"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex20"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex20"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex20"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex20"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex20"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex20"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex20"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex20"/>
+        
+        <!--  exam 2 tm -->
+        
+        <note IDEtudiant="ET31" valeur="17" exam="Ex17"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex17"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex17"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex17"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex17"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex17"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex17"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex17"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex17"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex17"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex17"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex17"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex17"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex17"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex17"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex17"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex17"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex17"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex17"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex17"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex17"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex17"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex17"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex17"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex17"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex17"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex17"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex17"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex17"/>
+        
+        <!-- exam 3 tm -->
+        <note IDEtudiant="ET31" valeur="17" exam="Ex19"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex19"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex19"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex19"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex19"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex19"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex19"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex19"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex19"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex19"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex19"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex19"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex19"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex19"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex19"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex19"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex19"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex19"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex19"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex19"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex19"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex19"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex19"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex19"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex19"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex19"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex19"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex19"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex19"/>
+        
+        <!-- exam 4 tm -->
+        
+        <note IDEtudiant="ET31" valeur="17" exam="Ex21"/>
+        <note IDEtudiant="ET32" valeur="13" exam="Ex21"/>
+        <note IDEtudiant="ET33" valeur="16" exam="Ex21"/>
+        <note IDEtudiant="ET34" valeur="16.5" exam="Ex21"/>
+        <note IDEtudiant="ET35" valeur="14" exam="Ex21"/>
+        <note IDEtudiant="ET36" valeur="15" exam="Ex21"/>
+        <note IDEtudiant="ET37" valeur="14.5" exam="Ex21"/>
+        <note IDEtudiant="ET38" valeur="13.5" exam="Ex21"/>
+        <note IDEtudiant="ET39" valeur="15" exam="Ex21"/>
+        <note IDEtudiant="ET40" valeur="14.5" exam="Ex21"/>
+        <note IDEtudiant="ET41" valeur="12" exam="Ex21"/>
+        <note IDEtudiant="ET42" valeur="18" exam="Ex21"/>
+        <note IDEtudiant="ET43" valeur="16.5" exam="Ex21"/>
+        <note IDEtudiant="ET44" valeur="16.5" exam="Ex21"/>
+        <note IDEtudiant="ET45" valeur="17" exam="Ex21"/>
+        <note IDEtudiant="ET46" valeur="14.5" exam="Ex21"/>
+        <note IDEtudiant="ET47" valeur="16" exam="Ex21"/>
+        <note IDEtudiant="ET48" valeur="14" exam="Ex21"/>
+        <note IDEtudiant="ET49" valeur="18.5" exam="Ex21"/>
+        <note IDEtudiant="ET50" valeur="14" exam="Ex21"/>
+        <note IDEtudiant="ET51" valeur="15" exam="Ex21"/>
+        <note IDEtudiant="ET53" valeur="13.5" exam="Ex21"/>
+        <note IDEtudiant="ET54" valeur="14.5" exam="Ex21"/>
+        <note IDEtudiant="ET55" valeur="13.5" exam="Ex21"/>
+        <note IDEtudiant="ET56" valeur="15" exam="Ex21"/>
+        <note IDEtudiant="ET57" valeur="15" exam="Ex21"/>
+        <note IDEtudiant="ET58" valeur="13.5" exam="Ex21"/>
+        <note IDEtudiant="ET59" valeur="14" exam="Ex21"/>
+        <note IDEtudiant="ET60" valeur="15.5" exam="Ex21"/>
+    </Notes>
+    <modules>
+        <module IDmod="M01" Coordonnateur="E01" filiere="F01" semestre="S5">
+            <Nom>Technologie web</Nom>
+        </module>
+        <module IDmod="M02" Coordonnateur="E06" filiere="F01" semestre="S5">
+            <Nom>Programmation orientee objet</Nom>
+        </module>
+        <module IDmod="M03" Coordonnateur="E03" filiere="F01" semestre="S5">
+            <Nom>Langues etrangeres et culture</Nom>
+        </module>
+        <module IDmod="M04" Coordonnateur="E05" filiere="F01" semestre="S6">
+            <Nom>Bases de donnees avancees</Nom>
+        </module>
+        <module IDmod="M05" Coordonnateur="E02" filiere="F01" semestre="S6">
+            <Nom>Programmation avancee: J2EE</Nom>
+        </module>
+        <module IDmod="M06" Coordonnateur="E04" filiere="F01" semestre="S6">
+            <Nom>Administration des systems et reseaux</Nom>
+        </module>
+        
+        
+        <module IDmod="M10" Coordonnateur="E11" filiere="F02" semestre="S5">
+            <Nom>Techniques Comptables</Nom>
+        </module>
+        <module IDmod="M11" Coordonnateur="E07" filiere="F02" semestre="S5">
+            <Nom>Fiscalité et droit des affaires</Nom>
+        </module>
+        
+    </modules>
+    <Filieres>
+        <filiere IDfil="F01" NomFil="LPMI"/>
+        <filiere IDfil="F02" NomFil="LPGCF"/>
+    </Filieres>
+    <Examens>
+        <exam IDexam="Ex01" Matexam="Mat01" coefficient="0.30" type="Ds" />
+        <exam IDexam="Ex02" Matexam="Mat01" coefficient="0.30" type="Exam" />
+        <exam IDexam="Ex03" Matexam="Mat01" coefficient="0.40" type="Projet" />
+        <exam IDexam="Ex04" Matexam="Mat02" coefficient="0.30" type="Ds" />
+        <exam IDexam="Ex05" Matexam="Mat02" coefficient="0.30" type="Exam" />
+        <exam IDexam="Ex06" Matexam="Mat02" coefficient="0.40" type="Projet" />
+        <exam IDexam="Ex07" Matexam="Mat03" coefficient="0.50" type="Ds" />
+        <exam IDexam="Ex08" Matexam="Mat03" coefficient="0.50" type="Exam" />
+        <exam IDexam="Ex09" Matexam="Mat04" coefficient="1" type="Exam" />
+        <exam IDexam="Ex10" Matexam="Mat05" coefficient="1" type="Exam" />
+        <exam IDexam="Ex11" Matexam="Mat06" coefficient="0.60" type="Projet"/>
+        <exam IDexam="Ex12" Matexam="Mat06" coefficient="0.40" type="Exam" />
+        <exam IDexam="Ex13" Matexam="Mat07" coefficient="0.40" type="Exam" />
+        <exam IDexam="Ex14" Matexam="Mat07" coefficient="0.60" type="Projet" />
+        <exam IDexam="Ex15" Matexam="Mat08" coefficient="1" type="Projet" />
+        <!-- tm -->
+        <exam IDexam="Ex16" Matexam="Mat14" coefficient="0.50" type="Ds"/>
+        <exam IDexam="Ex17" Matexam="Mat14" coefficient="0.50" type="Exam" />
+        <exam IDexam="Ex18" Matexam="Mat15" coefficient="0.50" type="Ds" />
+        <exam IDexam="Ex19" Matexam="Mat15" coefficient="0.50" type="Exam" />
+        <exam IDexam="Ex20" Matexam="Mat16" coefficient="0.50" type="Ds" />
+        <exam IDexam="Ex21" Matexam="Mat16" coefficient="0.50" type="Exam" />
+        <exam IDexam="Ex22" Matexam="Mat17" coefficient="0.50" type="Ds" />
+        <exam IDexam="Ex23" Matexam="Mat17" coefficient="0.50" type="Exam" />
+    </Examens>
+</EST>

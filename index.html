@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Scolarite</title>
+    <link rel="icon" type="image/png" href="logo.png" sizes="96x96">
+    <script type="text/javascript">
+      function loadXMLDoc(dname) {
+        xhttp = new XMLHttpRequest();
+        xhttp.open("GET",dname,false);
+        xhttp.send("");
+      return xhttp.responseXML;
+      }
+      var processor = new XSLTProcessor();
+      var theXML = loadXMLDoc('xml.xml');
+      var theXSL = loadXMLDoc('TP4.xsl');
+      processor.importStylesheet(theXSL);
+      var theResult = processor.transformToDocument(theXML);
+      document.write(new XMLSerializer().serializeToString(theResult)); 
+  </script>
+  </head>
+  <body>
+  </body>
+</html>
